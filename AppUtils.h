@@ -12,7 +12,8 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "SVProgressHUD.h"
+#import <UIKit/UIKit.h>
+
 
 @interface AppUtils : NSObject
 
@@ -34,18 +35,18 @@
 
 + (BOOL)BooltforKey:(NSString *)key;
 
-/********************* SVProgressHUD **********************/
-+ (void)showProgressMessage:(NSString *)message;
-
-+ (void)showSuccessMessage:(NSString *)message;
-
-+ (void)showErrorMessage:(NSString *)message;
-
-+ (void)showWithStatus:(NSString *)message;
-
-+ (void)showInfoWithStatus:(NSString*)message;
-
-+ (void)dismissHUD;
+///********************* SVProgressHUD **********************/
+//+ (void)showProgressMessage:(NSString *)message;
+//
+//+ (void)showSuccessMessage:(NSString *)message;
+//
+//+ (void)showErrorMessage:(NSString *)message;
+//
+//+ (void)showWithStatus:(NSString *)message;
+//
+//+ (void)showInfoWithStatus:(NSString*)message;
+//
+//+ (void)dismissHUD;
 /********************* 检测,确认合法性 **********************/
 //验证手机号的合法性
 + (BOOL)checkPhoneNumber:(NSString *)phoneNumber;
@@ -64,6 +65,6 @@
 +(BOOL)isAlphabetWithstring:(NSString *)string;
 
 /// 检测是否是中文
-+ (BOOL)isChineseWithstring:(NSString *)string{
++ (BOOL)isChineseWithstring:(NSString *)string;
 
 @end

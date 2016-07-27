@@ -8,6 +8,7 @@
 
 #import "AppUtils.h"
 
+
 @implementation AppUtils
 
 //获取app的版本号
@@ -57,7 +58,7 @@
     return [defaults boolForKey:key];
 }
 
-/********************* SVProgressHUD **********************/
+/********************* SVProgressHUD **********************
 + (void)showSuccessMessage:(NSString *)message{
     //想设置一些信息可以选择custom类型的 具体看api
     [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
@@ -94,7 +95,7 @@
     [SVProgressHUD dismiss];
 }
 
-/*******************--检测--******************************/
+*******************--检测--******************************/
 //验证手机合法性
 + (BOOL)checkPhoneNumber:(NSString *)phoneNumber{
     
@@ -177,6 +178,10 @@
     return [predicate evaluateWithObject:string];
 }
 
+@end
+
+
+
 /****************************       随笔记录一下         ******************************
  
  PM是个温柔的SB
@@ -210,4 +215,4 @@
  ****************************       随笔记录信息         ******************************/
 
 
-@end
+
