@@ -153,7 +153,6 @@
 }
 
 
-
 /// 占位文字 文字大小 文字颜色
 -(void)textField:(UITextField *)textField FontSize:(CGFloat)fontSize placeHolderTextColor:(UIColor *)textColor{
     
@@ -170,7 +169,13 @@
     NSPredicate *numberPre = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",number];
     return  [numberPre evaluateWithObject:string];
 }
+/// 检测是否是中文
++ (BOOL)isChineseWithstring:(NSString *)string{
 
+    NSString *match = @"(^[\u4e00-\u9fa5]+$)";
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF matches %@", match];
+    return [predicate evaluateWithObject:string];
+}
 
 /****************************       随笔记录一下         ******************************
  

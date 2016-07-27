@@ -63,4 +63,7 @@
 /// 检测是否是字母
 +(BOOL)isAlphabetWithstring:(NSString *)string;
 
+/// 检测是否是中文
++ (BOOL)isChineseWithstring:(NSString *)string{
+
 @end
