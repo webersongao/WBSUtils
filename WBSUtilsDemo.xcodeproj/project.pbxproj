@@ -13,6 +13,7 @@
 		4EBFACC51D43764B0047DCC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC31D43764B0047DCC5 /* Main.storyboard */; };
 		4EBFACC71D43764B0047DCC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC61D43764B0047DCC5 /* Assets.xcassets */; };
 		4EBFACCA1D43764B0047DCC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC81D43764B0047DCC5 /* LaunchScreen.storyboard */; };
+		4EBFACD51D437DB60047DCC5 /* WBSHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBFACD41D437DB60047DCC5 /* WBSHardware.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		4EBFACC91D43764B0047DCC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EBFACCB1D43764B0047DCC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EBFACD21D4376F30047DCC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4EBFACD31D437DB60047DCC5 /* WBSHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSHardware.h; sourceTree = "<group>"; };
+		4EBFACD41D437DB60047DCC5 /* WBSHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSHardware.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +62,10 @@
 		4EBFACB91D43764B0047DCC5 /* WBSUtilsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4EBFACD11D4376BF0047DCC5 /* WBSUtils */,
 				4EBFACC01D43764B0047DCC5 /* ViewController.h */,
 				4EBFACC11D43764B0047DCC5 /* ViewController.m */,
 				4EBFACC31D43764B0047DCC5 /* Main.storyboard */,
+				4EBFACD11D4376BF0047DCC5 /* WBSUtils */,
 				4EBFACBA1D43764B0047DCC5 /* Supporting Files */,
 			);
 			path = WBSUtilsDemo;
@@ -85,6 +88,8 @@
 		4EBFACD11D4376BF0047DCC5 /* WBSUtils */ = {
 			isa = PBXGroup;
 			children = (
+				4EBFACD31D437DB60047DCC5 /* WBSHardware.h */,
+				4EBFACD41D437DB60047DCC5 /* WBSHardware.m */,
 			);
 			name = WBSUtils;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EBFACC21D43764B0047DCC5 /* ViewController.m in Sources */,
+				4EBFACD51D437DB60047DCC5 /* WBSHardware.m in Sources */,
 				4EBFACBF1D43764B0047DCC5 /* AppDelegate.m in Sources */,
 				4EBFACBC1D43764B0047DCC5 /* main.m in Sources */,
 			);
