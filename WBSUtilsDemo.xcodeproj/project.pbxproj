@@ -164,18 +164,12 @@
 		4EBFACB91D43764B0047DCC5 /* WBSUtilsDemo */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-				4EBFACC01D43764B0047DCC5 /* ViewController.h */,
-				4EBFACC11D43764B0047DCC5 /* ViewController.m */,
-				4EBFACC31D43764B0047DCC5 /* Main.storyboard */,
-				4EBFACD11D4376BF0047DCC5 /* WBSUtils */,
-=======
 				4E4AD5871D474765002BFD98 /* WBSUtils */,
 				4EBFACC01D43764B0047DCC5 /* ViewController.h */,
 				4EBFACC11D43764B0047DCC5 /* ViewController.m */,
 				4EBFACC31D43764B0047DCC5 /* Main.storyboard */,
 				4E4AD5981D4748A7002BFD98 /* Lib库 */,
->>>>>>> origin/master
+
 				4EBFACBA1D43764B0047DCC5 /* Supporting Files */,
 			);
 			path = WBSUtilsDemo;
@@ -195,18 +189,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		4EBFACD11D4376BF0047DCC5 /* WBSUtils */ = {
-			isa = PBXGroup;
-			children = (
-				4EBFACD31D437DB60047DCC5 /* WBSHardware.h */,
-				4EBFACD41D437DB60047DCC5 /* WBSHardware.m */,
-			);
-			name = WBSUtils;
-			sourceTree = "<group>";
-		};
-=======
->>>>>>> origin/master
+
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -279,15 +262,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EBFACC21D43764B0047DCC5 /* ViewController.m in Sources */,
-<<<<<<< HEAD
-				4EBFACD51D437DB60047DCC5 /* WBSHardware.m in Sources */,
-=======
+
 				4E4AD61C1D489C93002BFD98 /* NSDateFormatter+Category.m in Sources */,
 				4E4AD6361D489D49002BFD98 /* EaseEmojiEmoticons.m in Sources */,
 				4E4AD62A1D489CE4002BFD98 /* EaseChineseToPinyin.m in Sources */,
 				4E4AD6221D489CB7002BFD98 /* UIViewController+DismissKeyboard.m in Sources */,
 				4E4AD62B1D489CE4002BFD98 /* EaseConvertToCommonEmoticonsHelper.m in Sources */,
->>>>>>> origin/master
+
 				4EBFACBF1D43764B0047DCC5 /* AppDelegate.m in Sources */,
 				4E4AD63F1D489E00002BFD98 /* MBProgressHUD.m in Sources */,
 				4E4AD63E1D489E00002BFD98 /* MBProgressHUD+Add.m in Sources */,

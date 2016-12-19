@@ -18,6 +18,32 @@
     return version;
 }
 
+//获取AppStore app的版本号
++ (NSString *)getMyApplicationVersionFromAppStore
+{
+    // 构建应用链接
+    NSURL *versionUrl = [NSURL URLWithString:@"https://itunes.apple.com/lookup?id=951610982"];
+    NSError *error = nil;
+    //获取版本号
+    NSString *versioninfo = [NSString stringWithContentsOfURL:versionUrl encoding:NSUTF8StringEncoding error:nil];
+    NSData *jsonData = [versioninfo dataUsingEncoding:NSUTF8StringEncoding];
+    NSDictionary *versionDict = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableLeaves error:&error];
+    
+    
+    if (!error && versioninfo) {
+        // 返回没有错误
+        NSArray *resultArr = versionDict[@"results"];
+        NSDictionary *resultDict = [resultArr firstObject];
+        //版本号
+        NSString *versionStr = resultDict[@"version"];
+        //打印版本号
+        return versionStr;
+    }else{
+        
+       return [NSString stringWithFormat:@"VersionError"];
+    }
+}
+
 /*******************--- 时间问题 ---*********************/
 //根据字符串获取到NSdate类型的数据
 + (NSDate *)getDateFromString:(NSString *)string{

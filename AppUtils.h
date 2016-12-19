@@ -17,8 +17,11 @@
 
 @interface AppUtils : NSObject
 
-//获取app的版本号
+//获取本地 app的版本号
 + (NSString *)getMyApplicationVersion;
+
+//获取AppStore app的版本号
++ (NSString *)getMyApplicationVersionFromAppStore;
 
 /********************* 时间问题 **********************/
 //根据字符串获取到NSdate类型的数据  yyyy-MM-dd-HH-mm-ss
