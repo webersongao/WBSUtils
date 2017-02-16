@@ -27,7 +27,6 @@
 		4EBFACC51D43764B0047DCC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC31D43764B0047DCC5 /* Main.storyboard */; };
 		4EBFACC71D43764B0047DCC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC61D43764B0047DCC5 /* Assets.xcassets */; };
 		4EBFACCA1D43764B0047DCC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC81D43764B0047DCC5 /* LaunchScreen.storyboard */; };
-		4EBFACD51D437DB60047DCC5 /* WBSHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBFACD41D437DB60047DCC5 /* WBSHardware.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,8 +69,6 @@
 		4EBFACC91D43764B0047DCC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EBFACCB1D43764B0047DCC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EBFACD21D4376F30047DCC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		4EBFACD31D437DB60047DCC5 /* WBSHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSHardware.h; sourceTree = "<group>"; };
-		4EBFACD41D437DB60047DCC5 /* WBSHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSHardware.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +166,6 @@
 				4EBFACC11D43764B0047DCC5 /* ViewController.m */,
 				4EBFACC31D43764B0047DCC5 /* Main.storyboard */,
 				4E4AD5981D4748A7002BFD98 /* Lib库 */,
-
 				4EBFACBA1D43764B0047DCC5 /* Supporting Files */,
 			);
 			path = WBSUtilsDemo;
@@ -189,7 +185,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,7 +216,7 @@
 				TargetAttributes = {
 					4EBFACB61D43764B0047DCC5 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 2QSWR73PPN;
+						DevelopmentTeam = 6XB2PBHRRB;
 					};
 				};
 			};
@@ -262,13 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EBFACC21D43764B0047DCC5 /* ViewController.m in Sources */,
-
 				4E4AD61C1D489C93002BFD98 /* NSDateFormatter+Category.m in Sources */,
 				4E4AD6361D489D49002BFD98 /* EaseEmojiEmoticons.m in Sources */,
 				4E4AD62A1D489CE4002BFD98 /* EaseChineseToPinyin.m in Sources */,
 				4E4AD6221D489CB7002BFD98 /* UIViewController+DismissKeyboard.m in Sources */,
 				4E4AD62B1D489CE4002BFD98 /* EaseConvertToCommonEmoticonsHelper.m in Sources */,
-
 				4EBFACBF1D43764B0047DCC5 /* AppDelegate.m in Sources */,
 				4E4AD63F1D489E00002BFD98 /* MBProgressHUD.m in Sources */,
 				4E4AD63E1D489E00002BFD98 /* MBProgressHUD+Add.m in Sources */,
@@ -389,11 +382,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XB2PBHRRB;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ./WBSUtilsDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = WBSUtilsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.516680.WBSUtilsDemo.WBSUtilsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.516680.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -402,11 +396,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XB2PBHRRB;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ./WBSUtilsDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = WBSUtilsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.516680.WBSUtilsDemo.WBSUtilsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.516680.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
