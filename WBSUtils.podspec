@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WBSUtils"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "iOS 第三方库优化 改bug工具库合集"
   s.description  = <<-DESC
   					iOS OC框架下年久失修库完善版，目前包含：YYImage YBImageBrowser 等。
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/webersongao"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "卫博生" => "gao@btbk.org" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/webersongao/WBSUtils.git", :tag => "#{s.version}" }
 
   s.requires_arc = true
@@ -39,10 +39,10 @@ Pod::Spec.new do |s|
     yyimage.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
   end
   
-  s.subspec 'YYImage_WebP' do |webp|
-    webp.dependency 'WBSUtils/YYImage'
-    webp.ios.vendored_frameworks = 'WBSUtils/YYImage-master/Vendor/WebP.framework'
-  end
+  # s.subspec 'YYImage_WebP' do |webp|
+  #   webp.dependency 'WBSUtils/YYImage'
+  #   webp.ios.vendored_frameworks = 'WBSUtils/YYImage-master/Vendor/WebP.framework'
+  # end
 
   # s.subspec 'YYImage_libwebp' do |libwebp|
   #   libwebp.dependency 'WBSUtils/YYImage'
