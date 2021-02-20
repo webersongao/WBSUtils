@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = 'WBSUtils'
-  s.version      = '0.1.5'
+  s.version      = '0.1.6'
   s.summary      = 'iOS 第三方库优化 改bug工具库合集'
   s.description  = <<-DESC
   					iOS OC框架下年久失修库完善版，目前包含：YYImage YBImageBrowser 等。
@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { '卫博生' => 'gao@btbk.org' }
   s.platform     = :ios, '9.0'
-  s.source       = { :git => 'https://github.com/webersongao/WBSUtils.git', :tag => '#{s.version}' }
+  # s.source       = { :git => 'https://github.com/webersongao/WBSUtils.git', :tag => '#{s.version}' }
+  s.source       = { :git => "https://github.com/webersongao/WBSUtils.git", :tag => s.version }
 
   s.requires_arc = true
   s.default_subspec = 'Core'
