@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author       = { "卫博生" => "gao@btbk.org" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/webersongao/WBSUtils.git", :tag => "#{s.version}" }
-  
+
   s.requires_arc = true
   s.default_subspec = "Core"
 
@@ -51,8 +51,8 @@ Pod::Spec.new do |s|
     yywebimg.source_files = 'WBSUtils/YYWebImage-master/YYWebImage/*.{h,m}', 'WBSUtils/YYWebImage-master/YYWebImage/Categories/*.{h,m}'
     yywebimg.public_header_files = 'WBSUtils/YYWebImage-master/YYWebImage/*.{h}', 'WBSUtils/YYWebImage-master/YYWebImage/Categories/*.{h}'
     yywebimg.private_header_files = 'WBSUtils/YYWebImage-master/YYWebImage/Categories/_*.{h}'
-    s.dependency 'WBSUtils/YYImage'
-    s.dependency 'WBSUtils/YYCache'
+    yywebimg.dependency 'WBSUtils/YYImage'
+    yywebimg.dependency 'WBSUtils/YYCache'
     yywebimg.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
   end
 
