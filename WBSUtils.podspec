@@ -53,13 +53,14 @@ Pod::Spec.new do |s|
   # end
 
 # 2021-2-20  YBImageBrowser
-  s.subspec "YBImageBrowser" do |ybbrowser|
-    ybbrowser.source_files   = "WBSUtils/YBImageBrowser-master/YBImageBrowser/**/*.{h,m}"
-    ybbrowser.exclude_files  = "WBSUtils/YBImageBrowser-master/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}"
-    ybbrowser.resources      = "WBSUtils/YBImageBrowser-master/YBImageBrowser/YBImageBrowser.bundle"
-    ybbrowser.dependency 'WBSUtils/YYImage'
-    ybbrowser.dependency 'SDWebImage', '>= 5.0.0'
-  end
+
+  # s.subspec "YBImageBrowser" do |ybbrowser|
+  #   ybbrowser.source_files   = "WBSUtils/YBImageBrowser-master/YBImageBrowser/**/*.{h,m}"
+  #   ybbrowser.exclude_files  = "WBSUtils/YBImageBrowser-master/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}"
+  #   ybbrowser.resources      = "WBSUtils/YBImageBrowser-master/YBImageBrowser/YBImageBrowser.bundle"
+  #   ybbrowser.dependency 'WBSUtils/YYImage'
+  #   ybbrowser.dependency 'SDWebImage', '>= 5.0.0'
+  # end
 
 
 # 示例模板：

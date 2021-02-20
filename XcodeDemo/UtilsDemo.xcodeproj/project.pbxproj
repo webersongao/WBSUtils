@@ -13,30 +13,14 @@
 		4EBFACC51D43764B0047DCC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC31D43764B0047DCC5 /* Main.storyboard */; };
 		4EBFACC71D43764B0047DCC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC61D43764B0047DCC5 /* Assets.xcassets */; };
 		4EBFACCA1D43764B0047DCC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC81D43764B0047DCC5 /* LaunchScreen.storyboard */; };
-		70D2566325E0C75600184418 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255D025E0C75600184418 /* AppUtils.m */; };
-		70D2566425E0C75600184418 /* WBSHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255D125E0C75600184418 /* WBSHardware.m */; };
-		70D2566525E0C75600184418 /* NSString+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255D225E0C75600184418 /* NSString+Valid.m */; };
-		70D2566625E0C75600184418 /* EaseConvertToCommonEmoticonsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255D525E0C75600184418 /* EaseConvertToCommonEmoticonsHelper.m */; };
-		70D2566725E0C75600184418 /* EaseChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255D625E0C75600184418 /* EaseChineseToPinyin.m */; };
-		70D2566825E0C75600184418 /* EaseEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255DB25E0C75600184418 /* EaseEmoji.m */; };
-		70D2566925E0C75600184418 /* EaseEmotionEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255DC25E0C75600184418 /* EaseEmotionEscape.m */; };
-		70D2566A25E0C75600184418 /* EaseEmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255DD25E0C75600184418 /* EaseEmojiEmoticons.m */; };
-		70D2566B25E0C75600184418 /* EaseEmotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255DF25E0C75600184418 /* EaseEmotionManager.m */; };
-		70D2566C25E0C75600184418 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255E125E0C75600184418 /* SVRadialGradientLayer.m */; };
-		70D2566D25E0C75600184418 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255E625E0C75600184418 /* SVProgressHUD.m */; };
-		70D2566E25E0C75600184418 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255E725E0C75600184418 /* SVIndefiniteAnimatedView.m */; };
-		70D2566F25E0C75600184418 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70D255E825E0C75600184418 /* SVProgressHUD.bundle */; };
-		70D2567025E0C75600184418 /* UIViewController+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255EC25E0C75600184418 /* UIViewController+DismissKeyboard.m */; };
-		70D2567125E0C75600184418 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255ED25E0C75600184418 /* NSDateFormatter+Category.m */; };
-		70D2567225E0C75600184418 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255F025E0C75600184418 /* UIView+Extension.m */; };
-		70D2567325E0C75600184418 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255F625E0C75600184418 /* YYSpriteSheetImage.m */; };
-		70D2567425E0C75600184418 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255F825E0C75600184418 /* YYImage.m */; };
-		70D2567525E0C75600184418 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255F925E0C75600184418 /* YYImageCoder.m */; };
-		70D2567625E0C75600184418 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255FA25E0C75600184418 /* YYFrameImage.m */; };
-		70D2567725E0C75600184418 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D255FB25E0C75600184418 /* YYAnimatedImageView.m */; };
-		70D2567825E0C75600184418 /* YYImage.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 70D255FD25E0C75600184418 /* YYImage.podspec */; };
-		70D2567B25E0C75600184418 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D2560125E0C75600184418 /* WebP.framework */; };
-		70D2567C25E0C75600184418 /* WebP.sh in Resources */ = {isa = PBXBuildFile; fileRef = 70D2560225E0C75600184418 /* WebP.sh */; };
+		70D2574F25E1065E00184418 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2574425E1065E00184418 /* YYSpriteSheetImage.m */; };
+		70D2575025E1065E00184418 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2574625E1065E00184418 /* YYImage.m */; };
+		70D2575125E1065E00184418 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2574725E1065E00184418 /* YYImageCoder.m */; };
+		70D2575225E1065E00184418 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2574825E1065E00184418 /* YYFrameImage.m */; };
+		70D2575325E1065E00184418 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2574925E1065E00184418 /* YYAnimatedImageView.m */; };
+		70D2575425E1065E00184418 /* YYImage.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 70D2574B25E1065E00184418 /* YYImage.podspec */; };
+		70D2575525E1065E00184418 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D2574D25E1065E00184418 /* WebP.framework */; };
+		70D2575625E1065E00184418 /* WebP.sh in Resources */ = {isa = PBXBuildFile; fileRef = 70D2574E25E1065E00184418 /* WebP.sh */; };
 		F872077E549F62A860DF2DA5 /* Pods_UtilsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768E86545A5E15CEAE7BDFC9 /* Pods_UtilsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,51 +37,19 @@
 		4EBFACC91D43764B0047DCC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EBFACCB1D43764B0047DCC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EBFACD21D4376F30047DCC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		70D255CF25E0C75600184418 /* UIViewController+DismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DismissKeyboard.h"; sourceTree = "<group>"; };
-		70D255D025E0C75600184418 /* AppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtils.m; sourceTree = "<group>"; };
-		70D255D125E0C75600184418 /* WBSHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSHardware.m; sourceTree = "<group>"; };
-		70D255D225E0C75600184418 /* NSString+Valid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Valid.m"; sourceTree = "<group>"; };
-		70D255D325E0C75600184418 /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
-		70D255D425E0C75600184418 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		70D255D525E0C75600184418 /* EaseConvertToCommonEmoticonsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseConvertToCommonEmoticonsHelper.m; sourceTree = "<group>"; };
-		70D255D625E0C75600184418 /* EaseChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseChineseToPinyin.m; sourceTree = "<group>"; };
-		70D255D825E0C75600184418 /* EaseEmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmojiEmoticons.h; sourceTree = "<group>"; };
-		70D255D925E0C75600184418 /* EaseEmotionEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmotionEscape.h; sourceTree = "<group>"; };
-		70D255DA25E0C75600184418 /* EaseEmotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmotionManager.h; sourceTree = "<group>"; };
-		70D255DB25E0C75600184418 /* EaseEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmoji.m; sourceTree = "<group>"; };
-		70D255DC25E0C75600184418 /* EaseEmotionEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmotionEscape.m; sourceTree = "<group>"; };
-		70D255DD25E0C75600184418 /* EaseEmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmojiEmoticons.m; sourceTree = "<group>"; };
-		70D255DE25E0C75600184418 /* EaseEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmoji.h; sourceTree = "<group>"; };
-		70D255DF25E0C75600184418 /* EaseEmotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmotionManager.m; sourceTree = "<group>"; };
-		70D255E125E0C75600184418 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		70D255E225E0C75600184418 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		70D255E325E0C75600184418 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		70D255E425E0C75600184418 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
-		70D255E525E0C75600184418 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		70D255E625E0C75600184418 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
-		70D255E725E0C75600184418 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		70D255E825E0C75600184418 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		70D255E925E0C75600184418 /* NSString+Valid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Valid.h"; sourceTree = "<group>"; };
-		70D255EA25E0C75600184418 /* WBSHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSHardware.h; sourceTree = "<group>"; };
-		70D255EB25E0C75600184418 /* AppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtils.h; sourceTree = "<group>"; };
-		70D255EC25E0C75600184418 /* UIViewController+DismissKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DismissKeyboard.m"; sourceTree = "<group>"; };
-		70D255ED25E0C75600184418 /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
-		70D255EE25E0C75600184418 /* EaseChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseChineseToPinyin.h; sourceTree = "<group>"; };
-		70D255EF25E0C75600184418 /* EaseConvertToCommonEmoticonsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseConvertToCommonEmoticonsHelper.h; sourceTree = "<group>"; };
-		70D255F025E0C75600184418 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		70D255F325E0C75600184418 /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
-		70D255F425E0C75600184418 /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
-		70D255F525E0C75600184418 /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
-		70D255F625E0C75600184418 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
-		70D255F725E0C75600184418 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
-		70D255F825E0C75600184418 /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
-		70D255F925E0C75600184418 /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
-		70D255FA25E0C75600184418 /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
-		70D255FB25E0C75600184418 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
-		70D255FC25E0C75600184418 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
-		70D255FD25E0C75600184418 /* YYImage.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YYImage.podspec; sourceTree = "<group>"; };
-		70D2560125E0C75600184418 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
-		70D2560225E0C75600184418 /* WebP.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = WebP.sh; sourceTree = "<group>"; };
+		70D2574125E1065E00184418 /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
+		70D2574225E1065E00184418 /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		70D2574325E1065E00184418 /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
+		70D2574425E1065E00184418 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		70D2574525E1065E00184418 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
+		70D2574625E1065E00184418 /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
+		70D2574725E1065E00184418 /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		70D2574825E1065E00184418 /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		70D2574925E1065E00184418 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		70D2574A25E1065E00184418 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		70D2574B25E1065E00184418 /* YYImage.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YYImage.podspec; sourceTree = "<group>"; };
+		70D2574D25E1065E00184418 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		70D2574E25E1065E00184418 /* WebP.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = WebP.sh; sourceTree = "<group>"; };
 		736DBAF7C90DB53FA7FEBCB5 /* Pods-UtilsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UtilsDemo.debug.xcconfig"; path = "Target Support Files/Pods-UtilsDemo/Pods-UtilsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		768E86545A5E15CEAE7BDFC9 /* Pods_UtilsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UtilsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -107,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D2567B25E0C75600184418 /* WebP.framework in Frameworks */,
+				70D2575525E1065E00184418 /* WebP.framework in Frameworks */,
 				F872077E549F62A860DF2DA5 /* Pods_UtilsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +97,7 @@
 		4EBFACB91D43764B0047DCC5 /* UtilsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				70D255CD25E0C75500184418 /* WBSUtils */,
+				70D2573F25E1065E00184418 /* YYImage-master */,
 				4EBFACC01D43764B0047DCC5 /* ViewController.h */,
 				4EBFACC11D43764B0047DCC5 /* ViewController.m */,
 				4EBFACC31D43764B0047DCC5 /* Main.storyboard */,
@@ -168,103 +120,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		70D255CD25E0C75500184418 /* WBSUtils */ = {
+		70D2573F25E1065E00184418 /* YYImage-master */ = {
 			isa = PBXGroup;
 			children = (
-				70D255CE25E0C75500184418 /* Core */,
-				70D255F125E0C75600184418 /* YYImage-master */,
+				70D2574025E1065E00184418 /* YYImage */,
+				70D2574B25E1065E00184418 /* YYImage.podspec */,
+				70D2574C25E1065E00184418 /* Vendor */,
 			);
-			name = WBSUtils;
-			path = ../../WBSUtils;
+			name = "YYImage-master";
+			path = "../../WBSUtils/YYImage-master";
 			sourceTree = "<group>";
 		};
-		70D255CE25E0C75500184418 /* Core */ = {
+		70D2574025E1065E00184418 /* YYImage */ = {
 			isa = PBXGroup;
 			children = (
-				70D255CF25E0C75600184418 /* UIViewController+DismissKeyboard.h */,
-				70D255D025E0C75600184418 /* AppUtils.m */,
-				70D255D125E0C75600184418 /* WBSHardware.m */,
-				70D255D225E0C75600184418 /* NSString+Valid.m */,
-				70D255D325E0C75600184418 /* NSDateFormatter+Category.h */,
-				70D255D425E0C75600184418 /* UIView+Extension.h */,
-				70D255D525E0C75600184418 /* EaseConvertToCommonEmoticonsHelper.m */,
-				70D255D625E0C75600184418 /* EaseChineseToPinyin.m */,
-				70D255D725E0C75600184418 /* Emoji */,
-				70D255E025E0C75600184418 /* SVProgressHUD */,
-				70D255E925E0C75600184418 /* NSString+Valid.h */,
-				70D255EA25E0C75600184418 /* WBSHardware.h */,
-				70D255EB25E0C75600184418 /* AppUtils.h */,
-				70D255EC25E0C75600184418 /* UIViewController+DismissKeyboard.m */,
-				70D255ED25E0C75600184418 /* NSDateFormatter+Category.m */,
-				70D255EE25E0C75600184418 /* EaseChineseToPinyin.h */,
-				70D255EF25E0C75600184418 /* EaseConvertToCommonEmoticonsHelper.h */,
-				70D255F025E0C75600184418 /* UIView+Extension.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		70D255D725E0C75600184418 /* Emoji */ = {
-			isa = PBXGroup;
-			children = (
-				70D255D825E0C75600184418 /* EaseEmojiEmoticons.h */,
-				70D255D925E0C75600184418 /* EaseEmotionEscape.h */,
-				70D255DA25E0C75600184418 /* EaseEmotionManager.h */,
-				70D255DB25E0C75600184418 /* EaseEmoji.m */,
-				70D255DC25E0C75600184418 /* EaseEmotionEscape.m */,
-				70D255DD25E0C75600184418 /* EaseEmojiEmoticons.m */,
-				70D255DE25E0C75600184418 /* EaseEmoji.h */,
-				70D255DF25E0C75600184418 /* EaseEmotionManager.m */,
-			);
-			path = Emoji;
-			sourceTree = "<group>";
-		};
-		70D255E025E0C75600184418 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				70D255E125E0C75600184418 /* SVRadialGradientLayer.m */,
-				70D255E225E0C75600184418 /* SVIndefiniteAnimatedView.h */,
-				70D255E325E0C75600184418 /* SVProgressHUD.h */,
-				70D255E425E0C75600184418 /* SVProgressHUD-Prefix.pch */,
-				70D255E525E0C75600184418 /* SVRadialGradientLayer.h */,
-				70D255E625E0C75600184418 /* SVProgressHUD.m */,
-				70D255E725E0C75600184418 /* SVIndefiniteAnimatedView.m */,
-				70D255E825E0C75600184418 /* SVProgressHUD.bundle */,
-			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		70D255F125E0C75600184418 /* YYImage-master */ = {
-			isa = PBXGroup;
-			children = (
-				70D255F225E0C75600184418 /* YYImage */,
-				70D2560025E0C75600184418 /* Vendor */,
-				70D255FD25E0C75600184418 /* YYImage.podspec */,
-			);
-			path = "YYImage-master";
-			sourceTree = "<group>";
-		};
-		70D255F225E0C75600184418 /* YYImage */ = {
-			isa = PBXGroup;
-			children = (
-				70D255F325E0C75600184418 /* YYImage.h */,
-				70D255F425E0C75600184418 /* YYImageCoder.h */,
-				70D255F525E0C75600184418 /* YYFrameImage.h */,
-				70D255F625E0C75600184418 /* YYSpriteSheetImage.m */,
-				70D255F725E0C75600184418 /* YYAnimatedImageView.h */,
-				70D255F825E0C75600184418 /* YYImage.m */,
-				70D255F925E0C75600184418 /* YYImageCoder.m */,
-				70D255FA25E0C75600184418 /* YYFrameImage.m */,
-				70D255FB25E0C75600184418 /* YYAnimatedImageView.m */,
-				70D255FC25E0C75600184418 /* YYSpriteSheetImage.h */,
+				70D2574125E1065E00184418 /* YYImage.h */,
+				70D2574225E1065E00184418 /* YYImageCoder.h */,
+				70D2574325E1065E00184418 /* YYFrameImage.h */,
+				70D2574425E1065E00184418 /* YYSpriteSheetImage.m */,
+				70D2574525E1065E00184418 /* YYAnimatedImageView.h */,
+				70D2574625E1065E00184418 /* YYImage.m */,
+				70D2574725E1065E00184418 /* YYImageCoder.m */,
+				70D2574825E1065E00184418 /* YYFrameImage.m */,
+				70D2574925E1065E00184418 /* YYAnimatedImageView.m */,
+				70D2574A25E1065E00184418 /* YYSpriteSheetImage.h */,
 			);
 			path = YYImage;
 			sourceTree = "<group>";
 		};
-		70D2560025E0C75600184418 /* Vendor */ = {
+		70D2574C25E1065E00184418 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				70D2560125E0C75600184418 /* WebP.framework */,
-				70D2560225E0C75600184418 /* WebP.sh */,
+				70D2574D25E1065E00184418 /* WebP.framework */,
+				70D2574E25E1065E00184418 /* WebP.sh */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -288,7 +176,7 @@
 				4EBFACB31D43764B0047DCC5 /* Sources */,
 				4EBFACB41D43764B0047DCC5 /* Frameworks */,
 				4EBFACB51D43764B0047DCC5 /* Resources */,
-				E9DE6B93C2B628BBB658D0C8 /* [CP] Embed Pods Frameworks */,
+				E07D16FBB381FF15E639D28E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -339,17 +227,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EBFACCA1D43764B0047DCC5 /* LaunchScreen.storyboard in Resources */,
+				70D2575425E1065E00184418 /* YYImage.podspec in Resources */,
 				4EBFACC71D43764B0047DCC5 /* Assets.xcassets in Resources */,
 				4EBFACC51D43764B0047DCC5 /* Main.storyboard in Resources */,
-				70D2567825E0C75600184418 /* YYImage.podspec in Resources */,
-				70D2567C25E0C75600184418 /* WebP.sh in Resources */,
-				70D2566F25E0C75600184418 /* SVProgressHUD.bundle in Resources */,
+				70D2575625E1065E00184418 /* WebP.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		E07D16FBB381FF15E639D28E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UtilsDemo/Pods-UtilsDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WBSUtils/WBSUtils.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WBSUtils.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UtilsDemo/Pods-UtilsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E1837E01334147A5EC5DDA24 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,24 +277,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9DE6B93C2B628BBB658D0C8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UtilsDemo/Pods-UtilsDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UtilsDemo/Pods-UtilsDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -397,29 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D2567225E0C75600184418 /* UIView+Extension.m in Sources */,
+				70D2575225E1065E00184418 /* YYFrameImage.m in Sources */,
 				4EBFACC21D43764B0047DCC5 /* ViewController.m in Sources */,
+				70D2574F25E1065E00184418 /* YYSpriteSheetImage.m in Sources */,
+				70D2575125E1065E00184418 /* YYImageCoder.m in Sources */,
+				70D2575325E1065E00184418 /* YYAnimatedImageView.m in Sources */,
 				4EBFACBF1D43764B0047DCC5 /* AppDelegate.m in Sources */,
-				70D2567725E0C75600184418 /* YYAnimatedImageView.m in Sources */,
+				70D2575025E1065E00184418 /* YYImage.m in Sources */,
 				4EBFACBC1D43764B0047DCC5 /* main.m in Sources */,
-				70D2566D25E0C75600184418 /* SVProgressHUD.m in Sources */,
-				70D2567325E0C75600184418 /* YYSpriteSheetImage.m in Sources */,
-				70D2566B25E0C75600184418 /* EaseEmotionManager.m in Sources */,
-				70D2566E25E0C75600184418 /* SVIndefiniteAnimatedView.m in Sources */,
-				70D2566425E0C75600184418 /* WBSHardware.m in Sources */,
-				70D2567425E0C75600184418 /* YYImage.m in Sources */,
-				70D2566525E0C75600184418 /* NSString+Valid.m in Sources */,
-				70D2566825E0C75600184418 /* EaseEmoji.m in Sources */,
-				70D2567525E0C75600184418 /* YYImageCoder.m in Sources */,
-				70D2566925E0C75600184418 /* EaseEmotionEscape.m in Sources */,
-				70D2567025E0C75600184418 /* UIViewController+DismissKeyboard.m in Sources */,
-				70D2567125E0C75600184418 /* NSDateFormatter+Category.m in Sources */,
-				70D2566625E0C75600184418 /* EaseConvertToCommonEmoticonsHelper.m in Sources */,
-				70D2566C25E0C75600184418 /* SVRadialGradientLayer.m in Sources */,
-				70D2566325E0C75600184418 /* AppUtils.m in Sources */,
-				70D2567625E0C75600184418 /* YYFrameImage.m in Sources */,
-				70D2566725E0C75600184418 /* EaseChineseToPinyin.m in Sources */,
-				70D2566A25E0C75600184418 /* EaseEmojiEmoticons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
