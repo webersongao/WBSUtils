@@ -84,44 +84,7 @@
     return [defaults boolForKey:key];
 }
 
-/********************* SVProgressHUD **********************
-+ (void)showSuccessMessage:(NSString *)message{
-    //想设置一些信息可以选择custom类型的 具体看api
-    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
-    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
-    [SVProgressHUD showSuccessWithStatus:message];
-}
-
-+ (void)showErrorMessage:(NSString *)message{
-    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
-    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
-    [SVProgressHUD showErrorWithStatus:message];
-}
-
-+ (void)showProgressMessage:(NSString *) message{
-    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
-    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
-    [SVProgressHUD showWithStatus:message];
-}
-
-+ (void)showWithStatus:(NSString *)message{
-    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
-    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
-    [SVProgressHUD showWithStatus:message];
-}
-
-+ (void)showInfoWithStatus:(NSString*)message{
-    
-    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
-    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
-    [SVProgressHUD showWithStatus:message];
-}
-
-+ (void)dismissHUD{
-    [SVProgressHUD dismiss];
-}
-
-*******************--检测--******************************/
+/*******************--检测--******************************/
 //验证手机合法性
 + (BOOL)checkPhoneNumber:(NSString *)phoneNumber{
     

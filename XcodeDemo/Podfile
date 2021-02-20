@@ -12,7 +12,7 @@ target 'UtilsDemo' do
 #  pod 'YYImage/WebP'
 
 #  pod 'WBSUtils'
-  
-  pod 'SDWebImage'
+#  pod 'WBSUtils/YYImage'
+  pod 'WBSUtils/YBImageBrowser'
 
 end

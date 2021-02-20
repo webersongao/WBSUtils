@@ -1,0 +1,6 @@
+framework module WBSUtils {
+  umbrella header "WBSUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

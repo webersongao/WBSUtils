@@ -38,18 +38,7 @@
 
 + (BOOL)BooltforKey:(NSString *)key;
 
-///********************* SVProgressHUD **********************/
-//+ (void)showProgressMessage:(NSString *)message;
-//
-//+ (void)showSuccessMessage:(NSString *)message;
-//
-//+ (void)showErrorMessage:(NSString *)message;
-//
-//+ (void)showWithStatus:(NSString *)message;
-//
-//+ (void)showInfoWithStatus:(NSString*)message;
-//
-//+ (void)dismissHUD;
+
 /********************* 检测,确认合法性 **********************/
 //验证手机号的合法性
 + (BOOL)checkPhoneNumber:(NSString *)phoneNumber;
