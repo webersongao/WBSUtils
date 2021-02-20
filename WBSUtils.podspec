@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WBSUtils"
-  s.version      = "0.1.8"
+  s.version      = "0.1.9"
   s.summary      = "iOS 第三方库优化 改bug工具库合集"
   s.description  = <<-DESC
   					iOS OC框架下年久失修库完善版，目前包含：YYImage YBImageBrowser 等。
@@ -61,7 +61,7 @@ Pod::Spec.new do |s|
     ybbrowser.exclude_files  = "WBSUtils/YBImageBrowser-master/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}"
     ybbrowser.resources      = "WBSUtils/YBImageBrowser-master/YBImageBrowser/YBImageBrowser.bundle"
     # ybbrowser.dependency "WBSUtils/YYImage"
-    ybbrowser.dependency 'YYImage', '~> 1.0.4' , :git => 'https://github.com/QiuYeHong90/YYImage.git'
+    ybbrowser.dependency 'YYImage', '~> 1.0.4' , git => 'https://github.com/QiuYeHong90/YYImage.git'
     ybbrowser.dependency "SDWebImage", ">= 5.0.0"
   end
 
