@@ -32,11 +32,11 @@ Pod::Spec.new do |s|
 
 # 2021-2-20  https://github.com/QiuYeHong90/YYImage
 
-  s.subspec 'YYImage' do |yyimage|
-    yyimage.source_files = 'WBSUtils/YYImage-master/YYImage/*.{h,m}'
-    yyimage.public_header_files = 'WBSUtils/YYImage-master/YYImage/*.{h}'
-    yyimage.libraries = 'z'
-    yyimage.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
+  s.subspec 'YYImage' do |yyimg|
+    yyimg.source_files = 'WBSUtils/YYImage-master/YYImage/*.{h,m}'
+    yyimg.public_header_files = 'WBSUtils/YYImage-master/YYImage/*.{h}'
+    yyimg.libraries = 'z'
+    yyimg.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
   end
   
   # s.subspec 'YYImage_WebP' do |webp|
