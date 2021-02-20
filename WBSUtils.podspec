@@ -10,28 +10,21 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WBSUtils"
-
-  s.version      = "0.1"
-
+  s.version      = "0.1.1"
   s.summary      = "iOS 第三方库优化 改bug工具库合集"
-
   s.description  = <<-DESC
   					iOS OC框架下年久失修库完善版，目前包含：YYImage YBImageBrowser 等。
                    DESC
-
   s.homepage     = "https://github.com/webersongao"
-
-  s.license      = "MIT"
-
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "卫博生" => "gao@btbk.org" }
-
   s.platform     = :ios, "8.0"
-
   s.source       = { :git => "https://github.com/webersongao/WBSUtils.git", :tag => "#{s.version}" }
 
   s.requires_arc = true
-
   s.default_subspec = "Core"
+
+# 2021-2-20  Core
 
   s.subspec "Core" do |core|
     core.source_files   = "WBSUtils/Core/**/*.{h,m}"
@@ -55,7 +48,7 @@ Pod::Spec.new do |s|
     libwebp.dependency 'WBSUtils/YYImage'
     libwebp.dependency 'libwebp'
     libwebp.xcconfig = { 
-      'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/WBSUtils/YYImage-master/libwebp/src'
+      'USER_HEADER_SEARCH_PATHS' => '$(inherited) $(SRCROOT)/libwebp/src'
     }
   end
 
@@ -65,6 +58,7 @@ Pod::Spec.new do |s|
     ybbrowser.exclude_files  = "WBSUtils/YBImageBrowser-masterYBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}"
     ybbrowser.resources      = "WBSUtils/YBImageBrowser-masterYBImageBrowser/YBImageBrowser.bundle"
     ybbrowser.dependency 'WBSUtils/YYImage'
+    ybbrowser.dependency 'SDWebImage', '>= 5.0.0'
   end
 
 
