@@ -10,19 +10,17 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WBSUtils"
-  s.version      = "0.1.92"
+  s.version      = "0.1.93"
   s.summary      = "iOS 第三方库优化 改bug工具库合集"
   s.description  = <<-DESC
-  					iOS OC框架下年久失修库完善版，目前包含：YYImage YBImageBrowser 等。
+  					iOS OC框架下年久失修库完善版，目前包含：YYImage, YYCache, YYWebImage, YBImageBrowser 等。
                    DESC
   s.homepage     = "https://github.com/webersongao"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "卫博生" => "gao@btbk.org" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/webersongao/WBSUtils.git", :tag => "#{s.version}" }
-
-  # s.source       = { :git => "https://github.com/webersongao/WBSUtils.git", :tag => s.version }
-
+  
   s.requires_arc = true
   s.default_subspec = "Core"
 
@@ -40,7 +38,24 @@ Pod::Spec.new do |s|
     yyimg.libraries = "z"
     yyimg.frameworks = "UIKit", "CoreFoundation", "QuartzCore", "AssetsLibrary", "ImageIO", "Accelerate", "MobileCoreServices"
   end
-  
+
+
+  s.subspec "YYCache" do |yycache|
+    yycache.source_files = 'WBSUtils/YYCache-master/YYCache/*.{h,m}'
+    yycache.public_header_files = 'WBSUtils/YYCache-master/YYCache/*.{h}'
+    yycache.libraries = 'sqlite3'
+    yycache.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore' 
+  end
+
+  s.subspec "YYWebImage" do |yywebimg|
+    yywebimg.source_files = 'WBSUtils/YYWebImage-master/YYWebImage/*.{h,m}', 'WBSUtils/YYWebImage-master/YYWebImage/Categories/*.{h,m}'
+    yywebimg.public_header_files = 'WBSUtils/YYWebImage-master/YYWebImage/*.{h}', 'WBSUtils/YYWebImage-master/YYWebImage/Categories/*.{h}'
+    yywebimg.private_header_files = 'WBSUtils/YYWebImage-master/YYWebImage/Categories/_*.{h}'
+    s.dependency 'WBSUtils/YYImage'
+    s.dependency 'WBSUtils/YYCache'
+    yywebimg.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
+  end
+
   # s.subspec "YYImage_WebP" do |webp|
   #   webp.dependency "WBSUtils/YYImage"
   #   webp.ios.vendored_frameworks = "WBSUtils/YYImage-master/Vendor/WebP.framework"
