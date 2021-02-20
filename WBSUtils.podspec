@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WBSUtils"
-  s.version      = "0.1.91"
+  s.version      = "0.1.92"
   s.summary      = "iOS 第三方库优化 改bug工具库合集"
   s.description  = <<-DESC
   					iOS OC框架下年久失修库完善版，目前包含：YYImage YBImageBrowser 等。
