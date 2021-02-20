@@ -1,18 +1,18 @@
 PODS:
-  - WBSUtils (0.1.3):
-    - WBSUtils/Core (= 0.1.3)
-  - WBSUtils/Core (0.1.3)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
 
 DEPENDENCIES:
-  - WBSUtils
+  - SDWebImage
 
 SPEC REPOS:
   trunk:
-    - WBSUtils
+    - SDWebImage
 
 SPEC CHECKSUMS:
-  WBSUtils: c4ba9aa784bf48e5de85a478b50be8ae043b2570
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
 
-PODFILE CHECKSUM: a61de31ae22fb2e006315746f6d25a796d302613
+PODFILE CHECKSUM: 50679bcd2d181709337a456b1211c4fb75bf1e23
 
 COCOAPODS: 1.10.0

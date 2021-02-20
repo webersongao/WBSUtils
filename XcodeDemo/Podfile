@@ -11,8 +11,8 @@ target 'UtilsDemo' do
 #  pod 'YYImage'
 #  pod 'YYImage/WebP'
 
-  pod 'WBSUtils'
+#  pod 'WBSUtils'
   
-#  pod 'YYImage/libwebp'
+  pod 'SDWebImage'
 
 end
