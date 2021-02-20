@@ -6,5 +6,9 @@ target 'UtilsDemo' do
   use_frameworks!
 
   # Pods for UtilsDemo
+  
+  pod 'YYImage'
+  pod 'YYImage/WebP'
+#  pod 'YYImage/libwebp'
 
 end
