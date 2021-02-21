@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 # 2021-2-20  Core
 
   s.subspec "Core" do |core|
-    core.source_files   = "WBSUtils/Default/**/*.{h,m}"
+    core.source_files   = "WBSUtils/Core/**/*.{h,m}"
   end
 
 # 2021-2-20  https://github.com/QiuYeHong90/YYImage
@@ -73,7 +73,6 @@ Pod::Spec.new do |s|
 
   s.subspec "YBImageBrowser" do |ybbrowser|
     ybbrowser.source_files   = "WBSUtils/YBImageBrowser-master/YBImageBrowser/**/*.{h,m}"
-    ybbrowser.exclude_files  = "WBSUtils/YBImageBrowser-master/YBImageBrowser/WebImageMediator/YBIBDefaultWebImageMediator.{h,m}"
     ybbrowser.resources      = "WBSUtils/YBImageBrowser-master/YBImageBrowser/YBImageBrowser.bundle"
     ybbrowser.dependency "WBSUtils/YYImage"
     ybbrowser.dependency "SDWebImage", ">= 5.0.0"
