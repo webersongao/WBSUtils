@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WBSUtils"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.summary      = "iOS 第三方库优化 改bug工具库合集"
   s.description  = <<-DESC
-  					iOS OC框架下年久失修库完善版，目前包含：YYImage, YYCache, YYWebImage, YBImageBrowser 等。
+  					iOS OC框架下年久失修库完善版，目前包含：YYImage, YYCache, YYWebImage, YBImageBrowser WebViewJavascriptBridge等。
                    DESC
   s.homepage     = "https://github.com/webersongao"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -76,6 +76,11 @@ Pod::Spec.new do |s|
     ybbrowser.resources      = "WBSUtils/YBImageBrowser-master/YBImageBrowser/YBImageBrowser.bundle"
     ybbrowser.dependency "WBSUtils/YYImage"
     ybbrowser.dependency "SDWebImage", ">= 5.0.0"
+  end
+
+
+  s.subspec "WebViewJsBridge" do |wkjsbridge|
+    wkjsbridge.source_files   = "WBSUtils/WebViewJavascriptBridge/WebViewJavascriptBridge/*.{h,m}"
   end
 
 

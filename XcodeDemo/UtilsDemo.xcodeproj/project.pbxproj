@@ -13,6 +13,11 @@
 		4EBFACC51D43764B0047DCC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC31D43764B0047DCC5 /* Main.storyboard */; };
 		4EBFACC71D43764B0047DCC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC61D43764B0047DCC5 /* Assets.xcassets */; };
 		4EBFACCA1D43764B0047DCC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBFACC81D43764B0047DCC5 /* LaunchScreen.storyboard */; };
+		70B2FE08265CF96000FE5048 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 70B2FDFD265CF96000FE5048 /* LICENSE */; };
+		70B2FE09265CF96000FE5048 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2FDFF265CF96000FE5048 /* WebViewJavascriptBridgeBase.m */; };
+		70B2FE0A265CF96000FE5048 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2FE00265CF96000FE5048 /* WKWebViewJavascriptBridge.m */; };
+		70B2FE0C265CF96000FE5048 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2FE04265CF96000FE5048 /* WebViewJavascriptBridge_JS.m */; };
+		70B2FE0D265CF96000FE5048 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 70B2FE07265CF96000FE5048 /* README.md */; };
 		70D2581C25E11DFC00184418 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2579425E11DFB00184418 /* AppUtils.m */; };
 		70D2582125E11DFC00184418 /* EaseEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2579F25E11DFB00184418 /* EaseEmoji.m */; };
 		70D2582225E11DFC00184418 /* EaseEmotionEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D257A025E11DFB00184418 /* EaseEmotionEscape.m */; };
@@ -78,6 +83,14 @@
 		4EBFACC91D43764B0047DCC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EBFACCB1D43764B0047DCC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EBFACD21D4376F30047DCC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		70B2FDFD265CF96000FE5048 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		70B2FDFF265CF96000FE5048 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		70B2FE00265CF96000FE5048 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		70B2FE02265CF96000FE5048 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		70B2FE03265CF96000FE5048 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		70B2FE04265CF96000FE5048 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		70B2FE06265CF96000FE5048 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		70B2FE07265CF96000FE5048 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		70D2579325E11DFB00184418 /* UIViewController+DismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DismissKeyboard.h"; sourceTree = "<group>"; };
 		70D2579425E11DFB00184418 /* AppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtils.m; sourceTree = "<group>"; };
 		70D2579825E11DFB00184418 /* UIView+Borde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Borde.h"; sourceTree = "<group>"; };
@@ -256,9 +269,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		70B2FDFC265CF96000FE5048 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				70B2FDFD265CF96000FE5048 /* LICENSE */,
+				70B2FDFE265CF96000FE5048 /* WebViewJavascriptBridge */,
+				70B2FE07265CF96000FE5048 /* README.md */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		70B2FDFE265CF96000FE5048 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				70B2FE06265CF96000FE5048 /* WKWebViewJavascriptBridge.h */,
+				70B2FE00265CF96000FE5048 /* WKWebViewJavascriptBridge.m */,
+				70B2FE02265CF96000FE5048 /* WebViewJavascriptBridge_JS.h */,
+				70B2FE04265CF96000FE5048 /* WebViewJavascriptBridge_JS.m */,
+				70B2FE03265CF96000FE5048 /* WebViewJavascriptBridgeBase.h */,
+				70B2FDFF265CF96000FE5048 /* WebViewJavascriptBridgeBase.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
 		70D2579125E11DFB00184418 /* WBSUtils */ = {
 			isa = PBXGroup;
 			children = (
+				70B2FDFC265CF96000FE5048 /* WebViewJavascriptBridge */,
 				70D2579225E11DFB00184418 /* Core */,
 				70D257B525E11DFB00184418 /* YYImage-master */,
 				70D257C125E11DFB00184418 /* YBImageBrowser-master */,
@@ -526,7 +563,7 @@
 				TargetAttributes = {
 					4EBFACB61D43764B0047DCC5 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 6XB2PBHRRB;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -557,8 +594,10 @@
 				70D2583625E11DFC00184418 /* YBImageBrowserVideo.bundle in Resources */,
 				4EBFACCA1D43764B0047DCC5 /* LaunchScreen.storyboard in Resources */,
 				70D2585325E11DFC00184418 /* YBImageBrowser.bundle in Resources */,
+				70B2FE08265CF96000FE5048 /* LICENSE in Resources */,
 				4EBFACC71D43764B0047DCC5 /* Assets.xcassets in Resources */,
 				4EBFACC51D43764B0047DCC5 /* Main.storyboard in Resources */,
+				70B2FE0D265CF96000FE5048 /* README.md in Resources */,
 				70D2583725E11DFC00184418 /* YBImageBrowser.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,8 +656,10 @@
 			files = (
 				70D2583425E11DFC00184418 /* YBIBVideoView.m in Sources */,
 				70D2584025E11DFC00184418 /* YBIBImageData.m in Sources */,
+				70B2FE0C265CF96000FE5048 /* WebViewJavascriptBridge_JS.m in Sources */,
 				70D2582B25E11DFC00184418 /* UIView+Borde.m in Sources */,
 				70D2584625E11DFC00184418 /* YBIBCopywriter.m in Sources */,
+				70B2FE09265CF96000FE5048 /* WebViewJavascriptBridgeBase.m in Sources */,
 				70D2583B25E11DFC00184418 /* YBImage.m in Sources */,
 				70D2584C25E11DFC00184418 /* YBIBScreenRotationHandler.m in Sources */,
 				4EBFACC21D43764B0047DCC5 /* ViewController.m in Sources */,
@@ -652,6 +693,7 @@
 				70D2584A25E11DFC00184418 /* YBIBToolViewHandler.m in Sources */,
 				70D2585025E11DFC00184418 /* YBIBCollectionViewLayout.m in Sources */,
 				70D2582D25E11DFC00184418 /* YYImage.m in Sources */,
+				70B2FE0A265CF96000FE5048 /* WKWebViewJavascriptBridge.m in Sources */,
 				70D2584F25E11DFC00184418 /* YBIBCollectionView.m in Sources */,
 				70D2582125E11DFC00184418 /* EaseEmoji.m in Sources */,
 				70D2584E25E11DFC00184418 /* YBIBDataMediator.m in Sources */,
@@ -774,13 +816,15 @@
 			baseConfigurationReference = 736DBAF7C90DB53FA7FEBCB5 /* Pods-UtilsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6XB2PBHRRB;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ./UtilsDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = UtilsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.516680.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -789,13 +833,15 @@
 			baseConfigurationReference = 284D4BBC6173F19BE2F51A6F /* Pods-UtilsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6XB2PBHRRB;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ./UtilsDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = UtilsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.516680.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
